@@ -48,6 +48,9 @@
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="baseBackgroundColor" red="0.91925710439999997" green="0.27234137060000002" blue="0.20387160779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="btnLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AYv-IV-pCH"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -109,10 +112,23 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ojO-rF-kjl"/>
+                    <connections>
+                        <outlet property="txtPwd" destination="ZYH-0X-Qql" id="Ys2-q5-q1C"/>
+                        <outlet property="txtUser" destination="p11-X0-1Ov" id="X1W-RJ-jbk"/>
+                        <segue destination="IO3-Gp-weK" kind="presentation" identifier="home_link" modalPresentationStyle="fullScreen" id="PZs-dT-F3i"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="81.696428571428569"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="mNi-Ug-4e0">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="IO3-Gp-weK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eG9-LK-noa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1602" y="74"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Uru-Di-AiR">

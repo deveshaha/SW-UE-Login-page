@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC19BD0329811F5000DF1E3C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC19BD0229811F5000DF1E3C /* Home.storyboard */; };
+		AC19BD05298130F700DF1E3C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19BD04298130F700DF1E3C /* HomeViewController.swift */; };
 		ACDB8E03292E15B900E9A8D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB8E02292E15B900E9A8D4 /* AppDelegate.swift */; };
 		ACDB8E05292E15B900E9A8D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB8E04292E15B900E9A8D4 /* SceneDelegate.swift */; };
 		ACDB8E07292E15B900E9A8D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB8E06292E15B900E9A8D4 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC19BD0229811F5000DF1E3C /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		AC19BD04298130F700DF1E3C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ACDB8DFF292E15B900E9A8D4 /* IniciarSesion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IniciarSesion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDB8E02292E15B900E9A8D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACDB8E04292E15B900E9A8D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				ACDB8E04292E15B900E9A8D4 /* SceneDelegate.swift */,
 				ACDB8E06292E15B900E9A8D4 /* ViewController.swift */,
 				ACDB8E08292E15B900E9A8D4 /* Main.storyboard */,
+				AC19BD0229811F5000DF1E3C /* Home.storyboard */,
+				AC19BD04298130F700DF1E3C /* HomeViewController.swift */,
 				ACDB8E0B292E15BB00E9A8D4 /* Assets.xcassets */,
 				ACDB8E0D292E15BB00E9A8D4 /* LaunchScreen.storyboard */,
 				ACDB8E10292E15BB00E9A8D4 /* Info.plist */,
@@ -128,6 +134,7 @@
 				ACDB8E0F292E15BB00E9A8D4 /* LaunchScreen.storyboard in Resources */,
 				ACDB8E0C292E15BB00E9A8D4 /* Assets.xcassets in Resources */,
 				ACDB8E0A292E15B900E9A8D4 /* Main.storyboard in Resources */,
+				AC19BD0329811F5000DF1E3C /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				ACDB8E07292E15B900E9A8D4 /* ViewController.swift in Sources */,
 				ACDB8E03292E15B900E9A8D4 /* AppDelegate.swift in Sources */,
 				ACDB8E05292E15B900E9A8D4 /* SceneDelegate.swift in Sources */,
+				AC19BD05298130F700DF1E3C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
